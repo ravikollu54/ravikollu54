@@ -1,0 +1,14 @@
+<template>
+    <div>
+        <lightning-input label="firstNum" name="fnum" type="text" value={firtnumber} onchange={handlechange}></lightning-input>
+        <lightning-input label="seconfNum" name="snum" type="text" value={secondnumber} onchange={handlechange}></lightning-input>
+        <lightning-input label="Result" name="result" type="text" disabled="true" value={result}></lightning-input>
+        <br/><br/>
+        <p align="center">
+            <lightning-button label="Addition" variant="brand=outline" onclick={handleAddition}></lightning-button> &nbsp;
+            <lightning-button label="Subtraction" variant="brand-outline" onclick={handleSubtraction}></lightning-button> &nbsp;
+            <lightning-button label="Multiplication" variant="brand-outlibe" onclick={handlemult}></lightning-button> &nbsp;
+            <lightning-button label="Division" variant="brand-outline" onclick={handleDivision}></lightning-button>
+        </p>
+    </div>
+</template>

@@ -1,0 +1,12 @@
+div
+{
+    width: 450px;
+    border: 2px solid grey;
+    margin-top: 50px;
+    margin-left: 450px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    background-color: lightsteelblue;
+}
