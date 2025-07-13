@@ -1,0 +1,13 @@
+<template>
+    <lightning-card title="Parent component" icon-name="standard:account">
+        <div class="slds-p-around_small">
+            <lightning-input label="FirstName" name="firstname" onchange={handleOnchange}></lightning-input>
+            <lightning-input label="LastName" name="lastname" onchange={handleOnchange}></lightning-input>
+            <lightning-input label="Age" name="age" onchange={handleOnchange}></lightning-input>
+            <lightning-button label="Submit" variant="brand" onclick={handleOnclick}></lightning-button>
+        </div>
+        <div>
+            <c-child-component3 fname={childfname} lname={childlname} age={childage}></c-child-component3>
+        </div>
+    </lightning-card>
+</template>
